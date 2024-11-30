@@ -1,5 +1,5 @@
 import { Skeleton } from '@/components/ui/skeleton';
-import { Card } from "../ui/card";
+import { Card, CardContent } from "../ui/card";
 import { CardHeader } from '../ui/card';
 
 export function StatsLoadingContainer() {
@@ -7,7 +7,7 @@ export function StatsLoadingContainer() {
     </div>
 }
 
-export function LoadingCard() {
+function LoadingCard() {
   return (
     <Card>
       <CardHeader>
